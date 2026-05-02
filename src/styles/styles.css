@@ -66,10 +66,31 @@
 
 .navbar__navegation-item.btn-form a {
   padding: .8rem 1.6rem;
-  background-color: var(--blue-color);
   border-radius: 3.2rem;
+  background-color: var(--blue-color-500);
   color: var(--white-color);
-  transition: opacity 0.3s;
+  transition: background-color ease-in-out .2s;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.navbar__navegation-item.btn-form a:hover {
+  background-color: var(--blue-color-600);
+  color: var(--white-color);
+  filter: scale(.5);
+}
+
+.btn-form {
+  filter: scale(1);
+}
+
+.btn-form:hover {
+  filter: scale(.5);
 }
 
 /* -------------------------------------------- */
