@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Vira-Lar</title>
+
+  <!-- Importação dos icones -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+
+  <!-- Links dos css da página construido no repositorio styles -->
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
@@ -13,10 +18,12 @@
   <!-- menu de navegação -->
   <header class="navbar">
     <nav class="navbar__container">
+
       <!-- logotipo -->
       <div class="navbar__logotipo">
         <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar">
       </div>
+
       <!-- itens para navegação da página -->
       <ul class="navbar__navegation">
         <li class="navbar__navegation-item active">
@@ -55,7 +62,7 @@
           </div>
           <!-- img 2 -->
           <div class="carousel-slide">
-            <img src="assets/img/banner/intro.svg" alt="2">
+            <img src="assets/img/banner/intro-2.svg" alt="2">
           </div>
           <!-- img 3 -->
           <div class="carousel-slide">
@@ -90,23 +97,17 @@
           <ul class="footer__social-list">
             <li class="footer__social-item">
               <a href="#" class="footer__social-link" target="_blank">
-                <img
-                  src="https://cdn-icons.flaticon.com/svg/6422/6422199.svg?token=exp=1777680699~hmac=e5b62e85a85f82e9c775e3f9a71425a9"
-                  alt="Facebook" class="footer__social-icon">
+                <i class="ti ti-brand-whatsapp footer__social-icon"></i>
               </a>
             </li>
             <li class="footer__social-item">
               <a href="#" class="footer__social-link" target="_blank">
-                <img
-                  src="https://cdn-icons.flaticon.com/svg/6422/6422213.svg?token=exp=1777680699~hmac=a55ebce75603d7dc9774c89fc2d2d8cd"
-                  alt="Instagram" class="footer__social-icon">
+                <i class="ti ti-brand-instagram footer__social-icon"></i>
               </a>
             </li>
             <li class="footer__social-item">
               <a href="#" class="footer__social-link" target="_blank">
-                <img
-                  src="https://cdn-icons.flaticon.com/svg/6422/6422200.svg?token=exp=1777680699~hmac=e69e829834482827fea3e903ebfa73ee"
-                  alt="YouTube" class="footer__social-icon">
+                <i class="ti ti-brand-linkedin footer__social-icon"></i>
               </a>
             </li>
           </ul>
@@ -116,11 +117,13 @@
       <!-- Contato -->
       <div class="footer__section">
         <h4 class="footer__title">Contato & Localização</h4>
-        <ul class="footer__list">
-          <li class="footer__item">Rua xxxxx - Petrópolis/RJ</li>
-          <li class="footer__item">contato@viralar.com.br</li>
-          <li class="footer__item">Segunda a sexta, 10h às 16h</li>
-        </ul>
+        <address>
+          <ul class="footer__list">
+            <li class="footer__item">Rua xxxxx - Petrópolis/RJ</li>
+            <li class="footer__item">contato@viralar.com.br</li>
+            <li class="footer__item">Segunda a sexta, 10h às 16h</li>
+          </ul>
+        </address>
       </div>
 
       <!--  links de Ajuda -->
@@ -148,7 +151,7 @@
 
     <!-- Copyright -->
     <div class="footer__copyright">
-      <p class="footer__copy-text">Desenvolvido por Grupo 06 - Serratec 2026</p>
+      <p class="footer__copy-text">Desenvolvido por Grupo 03 - Serratec 2026</p>
       <p class="footer__copy-text">Copyright © 2026</p>
     </div>
   </footer>
