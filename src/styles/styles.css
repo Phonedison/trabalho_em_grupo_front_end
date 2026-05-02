@@ -1,0 +1,239 @@
+@import url(variavel.css);
+
+/* estilização do navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: var(--yellow-color);
+  font-family: 'Mochiy Pop One';
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: 10;
+}
+
+.navbar__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: .8rem 5.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logotipo {
+  width: 100%;
+  height: 100%;
+  max-width: 10rem;
+  max-height: 10rem;
+  padding: .8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__logotipo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__navegation {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  padding: .8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__navegation-item a {
+  padding: .8rem;
+  text-decoration: none;
+  color: var(--black-color);
+  transition: color 0.3s ease;
+}
+
+.navbar__navegation-item.active a {
+  color: var(--green-color-500);
+}
+
+.navbar__navegation-item a:active {
+  color: var(--green-color-600);
+}
+
+.navbar__navegation-item a:hover {
+  color: var(--green-color-700);
+}
+
+.navbar__navegation-item.btn-form a {
+  padding: .8rem 1.6rem;
+  background-color: var(--blue-color);
+  border-radius: 3.2rem;
+  color: var(--white-color);
+  transition: opacity 0.3s;
+}
+
+/* -------------------------------------------- */
+
+/* container */
+.container {
+  width: 100%;
+  padding: 0 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: block;
+}
+
+/* Botões do carousel */
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 2.4rem;
+  background-color: var(--green-color-400);
+}
+
+.prev-btn {
+  left: 1rem;
+}
+
+.next-btn {
+  right: 1rem;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: var(--green-color-700);
+}
+
+/* estilização do footer */
+.footer {
+  background-color: var(--yellow-color);
+  bottom: 0;
+
+  width: 100%;
+  height: auto;
+}
+
+.footer__container {
+  padding: 4rem 5.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+.footer__section {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer__section--brand {
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.footer__logo {
+  max-width: 12rem;
+  height: auto;
+
+}
+
+.footer__slogan {
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 1;
+  max-width: 24rem;
+  text-wrap: balance;
+  color: var(--black-color);
+}
+
+.footer__title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  color: var(--black-color);
+}
+
+.footer__item::before {
+  content: "· "
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.footer__social-item {
+  background-color: var(--green-color-500);
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.footer__social-item:hover {
+  transform: translateY(-0.3rem);
+}
+
+.footer__social-icon {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(1);
+}
+
+.footer__copyright {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 1.2rem 5.2rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.33rem;
+}
+
+.footer__img-qrcode {
+  max-width: 12rem;
+}
+
+/* -------------------------------------------- */
