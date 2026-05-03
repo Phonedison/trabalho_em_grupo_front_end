@@ -1,0 +1,61 @@
+:root {
+  /* -- Cores -- */
+
+  --green-color-700: hsl(168, 96%, 14%);
+  --green-color-600: hsl(168, 96%, 24%);
+  --green-color-500: #03aa89;
+  --green-color-400: hsl(168, 96%, 44%);
+  --green-color-300: hsl(168, 96%, 54%);
+
+  --yellow-color-700: hsl(52, 99%, 34%);
+  --yellow-color-600: hsl(52, 99%, 44%);
+  --yellow-color-500: hsl(52, 99%, 54%);
+  --yellow-color-500-vertente: hsl(59, 100%, 49%);
+  --yellow-color-400: hsl(46, 100%, 50%);
+  --yellow-color-300: hsl(52, 99%, 74%);
+
+  --blue-color-700: hsl(200, 70%, 25%);
+  --blue-color-600: hsl(200, 70%, 35%);
+  --blue-color-500: hsl(200, 70%, 55%);
+  --blue-color-400: hsl(200, 70%, 65%);
+  --blue-color-300: hsl(200, 70%, 75%);
+
+  /* -- Cores para textos -- */
+  --black-color: #2F2F2F;
+  --gray-color: hsl(0, 0%, 48%);
+  --white-color: #F5F7FA;
+
+  /* Filtro de Cor */
+  --filter-yellow: invert(86%) sepia(81%) saturate(7486%) hue-rotate(336deg) brightness(97%) contrast(106%);
+  --filter-green: invert(66%) sepia(65%) saturate(6110%) hue-rotate(138deg) brightness(93%) contrast(98%);
+  --filter-blue: invert(51%) sepia(53%) saturate(586%) hue-rotate(155deg) brightness(105%) contrast(88%);
+
+  --filter-white: invert(89%) sepia(3%) saturate(742%) hue-rotate(203deg) brightness(110%) contrast(96%);
+  --filter-black: invert(24%) sepia(0%) saturate(558%) hue-rotate(163deg) brightness(80%) contrast(102%);
+
+  /* Box Shadow  */
+  --card-shadow:
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  --btn-shadow-form:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  --btn-shadow:
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 8px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  --font-family: 'Mochiy Pop One';
+
+  --patern: -5;
+}

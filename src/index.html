@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Vira-Lar</title>
+
+  <!-- Importação dos icones - PROFESSORA ESTAMOS UTILIZANDO O BOOTSTRAP -->
+  <!-- https://icons.getbootstrap.com/ -> lista dos icones -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- Links dos css da página construido no repositorio styles -->
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <!-- menu de navegação - navbar da tela -->
+  <header class="navbar">
+    <nav class="navbar__container">
+
+      <!-- logotipo -->
+      <div id="home" class="navbar__logotipo">
+        <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" />
+      </div>
+
+      <!-- itens para navegação da página -->
+      <ul class="navbar__navegation">
+        <li class="navbar__navegation-item active">
+          <a href="#">Home</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="./components/sobre.html">Sobre</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="./components/galeria-pets.html">Galeria de Pets</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="./components/blogs.html">Blog</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="./components/contato.html">Contato</a>
+        </li>
+        <li class="navbar__navegation-item btn-form">
+          <a href="./components/adotar.html">Adotar agora</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- tag main com as sections -->
+  <main>
+
+    <!-- section - hero -->
+    <section class="hero container">
+      <div class="carousel">
+        <!-- container do carousel -->
+        <div class="carousel-track">
+          <!-- img 1 -->
+          <div class="carousel-slide">
+            <img src="assets/img/banner/intro.svg" alt="1" />
+          </div>
+          <!-- img 2 -->
+          <div class="carousel-slide">
+            <img src="assets/img/banner/intro-2.svg" alt="2" />
+          </div>
+        </div>
+
+        <!--Navegação -->
+        <button class="prev-btn">«</button>
+        <button class="next-btn">»</button>
+      </div>
+
+    </section>
+
+    <!-- section - pets recém-chegados -->
+    <section class="newcomer container">
+      <!-- div intro -->
+      <div class="newcomer__title">
+        <div class="newcomer__title-ilustration">
+          <img src="assets/img/illustrations/sino.svg" alt="" srcset="" />
+        </div>
+        <h2>Pets <strong>Recém-chegados</strong></h2>
+      </div>
+      <!-- div conteiner dos cards -->
+      <div class="newcomer__cards">
+        <!-- card -->
+        <div class="newcomer__card">
+          <div class="newcomer__card-img">
+            <p>anos</p>
+            <img src="./assets/img/bichos/dogs/Beto.jpeg" alt="">
+          </div>
+
+          <div class="newcomer__card-info">
+            <div class="newcomer__card-description">
+              <h3>Nome do Cachorro</h3>
+              <p>Petrópolis-Rj</p>
+            </div>
+            <div class="newcomer__card-detail">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            </div>
+            <div class="newcomer__card-btn">
+              <button>Saber mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="newcomer__card">
+          <div class="newcomer__card-img">
+            <p>anos</p>
+            <img src="./assets/img/bichos/dogs/Snow.jpeg" alt="" />
+          </div>
+
+          <div class="newcomer__card-info">
+            <div class="newcomer__card-description">
+              <h3>Nome do Cachorro</h3>
+              <p>Petrópolis-Rj</p>
+            </div>
+            <div class="newcomer__card-detail">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            </div>
+            <div class="newcomer__card-btn">
+              <button>Saber mais</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="newcomer__push">
+        <h2>Se interessou?</h2>
+        <div class="newcomer__push-btn">
+          <a href="#">Veja Mais</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section - petBlogs -->
+    <section class="container">
+      <div class="blogs">
+        <div class="blogs__title">
+          <h2>PetsBlogs</h2>
+          <p>Publicações recentes</p>
+        </div>
+        <div class="blogs__img">
+          <img src="./assets/img/bichos/cats/filhote-gato.png" alt="" />
+          <div class="blogs__img-description">
+            <h4>Como cuidar de gatos filhotes?</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book...</p>
+          </div>
+        </div>
+        <div class="blogs__btn">
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <!-- img na lateral direita da section -->
+      <div class="pattern__dog-crow"></div>
+    </section>
+
+    <!-- section - sobre o que falaram  -->
+    <section class="container">
+      <div class="what-say">
+        <!-- Intro da section -->
+        <div class="what-say__title">
+          <h3>O que estão falando <strong>sobre a gente</strong>? </h3>
+        </div>
+        <div class="what-say__posts">
+          <div class="what-say__post">
+            <div class="what-say__person">
+              <div class="what-say__person-img">
+                <img
+                  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="">
+              </div>
+              <div class="what-say__person-info">
+                <h4>Mike Maya</h4>
+                <p>Tutora da Dominick</p>
+              </div>
+            </div>
+            <div class="what-say__post-description">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book...</p>
+            </div>
+            <div class="what-say__post-record">
+              <p>Avaliação</p>
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="what-say__post">
+            <div class="what-say__person">
+              <div class="what-say__person-img">
+                <img
+                  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="">
+              </div>
+              <div class="what-say__person-info">
+                <h4>Mike Maya</h4>
+                <p>Tutora da Dominick</p>
+              </div>
+            </div>
+            <div class="what-say__post-description">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book...</p>
+            </div>
+            <div class="what-say__post-record">
+              <p>Avaliação</p>
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="what-say__post">
+            <div class="what-say__person">
+              <div class="what-say__person-img">
+                <img
+                  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="">
+              </div>
+              <div class="what-say__person-info">
+                <h4>Mike Maya</h4>
+                <p>Tutora da Dominick</p>
+              </div>
+            </div>
+            <div class="what-say__post-description">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book...</p>
+            </div>
+            <div class="what-say__post-record">
+              <p>Avaliação</p>
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="what-say__post">
+            <!-- postagem -->
+            <div class="what-say__person">
+              <!-- foto do usuário -->
+              <div class="what-say__person-img">
+                <img
+                  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="">
+              </div>
+              <!-- informações do usuario -->
+              <div class="what-say__person-info">
+                <h4>Mike Maya</h4>
+                <p>Tutora da Dominick</p>
+              </div>
+            </div>
+            <!-- descrição breve do usuário -->
+            <div class="what-say__post-description">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book...</p>
+            </div>
+            <!-- parte da avaliação com da pessoa -->
+            <div class="what-say__post-record">
+              <p>Avaliação</p>
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="what-say__post">
+            <div class="what-say__person">
+              <div class="what-say__person-img">
+                <img
+                  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="">
+              </div>
+              <div class="what-say__person-info">
+                <h4>Mike Maya</h4>
+                <p>Tutora da Dominick</p>
+              </div>
+            </div>
+            <div class="what-say__post-description">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book...</p>
+            </div>
+            <div class="what-say__post-record">
+              <p>Avaliação</p>
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- img na lateral esquerda da section -->
+      <div class="pattern__dog-heart"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+
+      <!-- logotipo + slogan + sociais -->
+      <div class="footer__section footer__section--brand">
+        <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
+        <div class="footer__brand-content">
+          <p class="footer__slogan">Transformando vidas através do amor animal.</p>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" target="_blank">
+                <!-- importação dos Icones no html -->
+                <i class="bi bi-whatsapp footer__social-icon"></i>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" target="_blank">
+                <i class="bi bi-instagram footer__social-icon"></i>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" target="_blank">
+                <i class="bi bi-linkedin footer__social-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contato -->
+      <div class="footer__section">
+        <h4 class="footer__title">Contato & Localização</h4>
+        <address>
+          <ul class="footer__list">
+            <li class="footer__item">Rua xxxxx - Petrópolis/RJ</li>
+            <li class="footer__item">contato@viralar.com.br</li>
+            <li class="footer__item">Segunda a sexta, 10h às 16h</li>
+          </ul>
+        </address>
+      </div>
+
+      <!--  links de Ajuda -->
+      <div class="footer__section">
+        <h4 class="footer__title">Como Ajudar</h4>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Seja um Voluntário</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Doe qualquer valor (PIX)</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Itens de necessidade</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- QrCode -->
+      <div class="footer__section footer__section--extra">
+        <img src="assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer__copyright">
+      <p class="footer__copy-text">Desenvolvido por Grupo 03 - Serratec 2026</p>
+      <p class="footer__copy-text">Copyright © 2026</p>
+    </div>
+  </footer>
+  <script src="./scripts/carousel.js"></script>
+</body>
+
+</html>
