@@ -15,14 +15,60 @@
 .pattern__dog-heart {
   position: absolute;
   left: -8rem;
-  bottom: -8rem;
+  bottom: 5rem;
   z-index: var(--patern);
   background-image: url("../../assets/img/illustrations/cachorrito-com-coracao.png");
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
   transform: translateY(5%);
+}
+
+.pattern__big-smille {
+  position: absolute;
+  bottom: 2rem;
+  right: -5rem;
+  z-index: var(--patern);
+  background-image: url("../../assets/img/illustrations/smille.svg");
+  width: 30%;
+  height: 30%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.pattern__stars {
+  position: absolute;
+  bottom: 11rem;
+  left: 25%;
+
+  transform: translateX(-50%);
+  z-index: var(--patern);
+  background-image: url("../../assets/img/illustrations/stars.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+
+  width: 20%;
+  height: 20%;
+}
+
+.pattern__bam {
+  position: absolute;
+  bottom: 6rem;
+  right: -4rem;
+  transform: translateX(-80%);
+  z-index: var(--patern);
+  background-image: url("../../assets/img/illustrations/bam.svg");
+  width: 30%;
+  height: 20%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
 }
