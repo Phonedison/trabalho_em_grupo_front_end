@@ -21,7 +21,7 @@ s*/
 }
 
 html {
-  /* Definindo o pardão de 16px*/
+  /* Definindo o pardão de 10px*/
   font-size: 62.5%;
 }
 
@@ -59,12 +59,34 @@ h6 {
   font-family: 'Mochiy Pop One', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
 main {
   width: 100%;
   padding: 4.8rem 0;
+
 }
 
 section {
   height: 100vh;
   overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding: 0 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container:last-child {
+  width: 100%;
+  overflow: visible;
 }

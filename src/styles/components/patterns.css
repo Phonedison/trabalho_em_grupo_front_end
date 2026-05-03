@@ -2,7 +2,7 @@
   position: absolute;
   right: -20rem;
   z-index: var(--patern);
-  background-image: url("../assets/img/illustrations/cachorrito-com-coroa.png");
+  background-image: url("../../assets/img/illustrations/cachorrito-com-coroa.png");
   width: 100%;
   height: 100%;
   background-position: right top;
@@ -17,7 +17,7 @@
   left: -8rem;
   bottom: -8rem;
   z-index: var(--patern);
-  background-image: url("../assets/img/illustrations/cachorrito-com-coracao.png");
+  background-image: url("../../assets/img/illustrations/cachorrito-com-coracao.png");
   width: 100%;
   height: 100%;
   background-position: left;
