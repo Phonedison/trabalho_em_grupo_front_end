@@ -1,0 +1,40 @@
+.pet-detalhe {
+  background-color: var(--white-color);
+  display: flex;
+  gap: 4rem;
+  padding: 4rem;
+  border-radius: 28px;
+  max-width: 1100px;
+  width: 100%;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.pet-detalhe__img {
+  width: 420px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.pet-detalhe__info h2 {
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+
+.pet-detalhe__info p {
+  margin-bottom: 0.8rem;
+}
+
+.pet-detalhe__descricao {
+  margin-top: 1.6rem;
+}
+
+.pet-detalhe__btn {
+  display: inline-block;
+  margin-top: 2.4rem;
+  padding: 1rem 3rem;
+  background-color: var(--green-color-500);
+  color: white;
+  border-radius: 999px;
+  font-weight: 600;
+}

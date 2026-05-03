@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--green-color-500);
+  min-height: 100vh;
+}
+
+h1, h2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.container {
+  min-height: calc(100vh - 120px);
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.titulo-pet {
+  font-size: 5rem;
+  color: white;
+}
+
+.titulo-pet span {
+  color: var(--yellow-color);
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}

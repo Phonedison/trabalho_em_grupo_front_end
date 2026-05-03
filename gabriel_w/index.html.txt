@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria de Pets | Vira-lar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/variavel.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+
+  <style>
+    /* ===== GALERIA ===== */
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 3rem;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .card {
+      background-color: var(--white-color);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card__conteudo {
+      padding: 2rem;
+      flex: 1;
+    }
+
+    .card__conteudo h3 {
+      font-size: 2.4rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .card__conteudo p {
+      font-size: 1.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .card__btn {
+      margin: 2rem;
+      padding: 1rem;
+      background-color: var(--green-color-500);
+      color: white;
+      border-radius: 999px;
+      text-align: center;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <nav class="navbar__container">
+    <div class="navbar__logotipo">
+      <img src="assets/logo/logotipo_vira-lar.png" alt="Logotipo Vira-lar">
+    </div>
+
+    <ul class="navbar__navegation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Galeria de Pets</a></li>
+      <li class="btn-form"><a href="#">Adotar agora</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===== CONTEÚDO ===== -->
+<main>
+  <section class="container">
+
+    <h1 class="titulo-pet">
+      Galeria de <span>Pets</span>
+    </h1>
+
+    <div class="galeria">
+
+      <!-- CARD BETO -->
+      <div class="card">
+        <img src="assets/cachorro/Beto.jpeg" alt="Beto">
+
+        <div class="card__conteudo">
+          <h3>Beto</h3>
+          <p><strong>Raça:</strong> SRD</p>
+          <p><strong>Brincadeira:</strong> Bolinhas</p>
+        </div>
+
+        <a href="pages/beto.html" class="card__btn">
+          Saiba mais
+        </a>
+      </div>
+
+      <!-- VOCÊ COPIA ESSE CARD PARA OS OUTROS PETS -->
+
+    </div>
+
+  </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <p>© 2026 - Projeto Vira-lar</p>
+</footer>
+
+</body>
+</html>

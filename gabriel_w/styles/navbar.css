@@ -1,0 +1,31 @@
+.navbar {
+  background-color: var(--yellow-color);
+  padding: 1.6rem 4rem;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logotipo img {
+  height: 50px;
+}
+
+.navbar__navegation {
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar__navegation a {
+  font-weight: 600;
+  color: var(--black-color);
+}
+
+.btn-form a {
+  background-color: var(--blue-color-500);
+  padding: 0.8rem 2rem;
+  border-radius: 999px;
+  color: white;
+}
