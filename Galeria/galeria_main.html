@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Pets</title>
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/variavel.css">
+    <link rel="stylesheet" href="Styles/reset.css">
 </head>
 <body>
     <header class="navbar">
@@ -14,19 +15,19 @@
 
       <!-- logotipo -->
       <div class="navbar__logotipo">
-        <img src="assets/logotipo_vira-lar.png" alt="Logotipo Vira-lar">
+        <img src="assets/logo/logotipo_vira-lar.png" alt="Logotipo Vira-lar">
       </div>
 
       <!-- itens para navegação da página -->
       <ul class="navbar__navegation">
         <li class="navbar__navegation-item">
-          <a href="#">Home</a>
+          <a href="/components/home.html">Home</a>
         </li>
         <li class="navbar__navegation-item">
           <a href="./components/sobre.html">Sobre</a>
         </li>
         <li class="navbar__navegation-item active">
-          <a href="./components/galeria-pets.html">Galeria de Pets</a>
+          <a href= "#">Galeria de Pets</a>
         </li>
         <li class="navbar__navegation-item">
           <a href="./components/blogs.html">Blog</a>
@@ -41,54 +42,71 @@
     </nav>
   </header>
    <main>
-    <div class="container_titulo">
-      <h1>GALERIA DE <span class="destaque">PETS</span></h1>
+    <section class="container">
+      <div class="galeria">
+
+      
+      <div class="galeria__titulo">
+      <h1>GALERIA DE <span class="galeria__destaque">PETS</span></h1>
     </div>
-    <div class="container_fotos">
-        <div class="beto card">
-            <img class="card__image" src="assets/Beto.jpeg" alt="Beto pet">
-            <div class="card__body">
+    <div class="galeria__post">
+      
+        <div class="galeria__card">
+            <img class="galeria__card-profile" src="assets/dogs/Beto.jpeg" alt="Beto pet">
+            <div class="galeria__card-description">
                 <h2>Beto</h2>
                 <p>Raça: SRD</p>
                 <p>Brincadeira favorita: Bolinhas</p>
-                <button class="saiba_mais">Saiba Mais</button>
+                <button class="galeria__card-more-information">
+                  <a href="./components/beto.html">Saiba Mais</a>
+                </button>
             </div>
         </div>
-        <div class="barao card">
-            <img class="card__image" src="assets/Barao.jpeg" alt="Barao pet">
-            <div class="card__body">
+        <div class="galeria__card">
+            <img class="galeria__card-profile" src="assets/dogs/Barao.jpeg" alt="Barao pet">
+            <div class="galeria__card-description">
                 <h2>Barão</h2>
                 <p>Raça: SRD</p>
                 <p>Brincadeira favorita: Pique-Pega</p>
-                <button class="saiba_mais">Saiba Mais</button>
+                <button class="galeria__card-more-information">
+                  <a href="./components/barao.html">Saiba Mais</a>
+                </button>
             </div>
         </div>
-        <div class="odin card">
-            <img class="card__image" src="assets/Odin.jpeg" alt="Odin pet">
-            <div class="card__body">
+        <div class="galeria__card">
+            <img class="galeria__card-profile" src="assets/dogs/Odin.jpeg" alt="Odin pet">
+            <div class="galeria__card-description">
                 <h2>Odin</h2>
                 <p>Raça: SRD</p>
                 <p>Brincadeira favorita: Bolinhas</p>
-                <button class="saiba_mais">Saiba Mais</button>
+                <button class="galeria__card-more-information">
+                  <a href="./components/odin.html">Saiba Mais</a>
+                </button>
             </div>
         </div>
-        <div class="wagner card">
-            <img class="card__image" src="assets/Wagner.jpeg" alt="Wagner pet">
-            <div class="card__body">
+        <div class="galeria__card">
+            <img class="galeria__card-profile" src="assets/dogs/Wagner.jpeg" alt="Wagner pet">
+            <div class="galeria__card-description">
                 <h2>Wagner</h2>
                 <p>Raça: SRD</p>
                 <p>Brincadeira favorita: Pique-Pega</p>
-                <button class="saiba_mais">Saiba Mais</button>
+                <button class="galeria__card-more-information">
+                  <a href="./components/wagner.html">Saiba Mais</a>
+                </button>
             </div>
         </div>
+        
+        </div>
     </div>
+    
+    </section>
    </main>
    <footer class="footer">
     <div class="footer__container">
 
       <!-- logotipo + slogan + sociais -->
       <div class="footer__section footer__section--brand">
-        <img src="assets/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo">
+        <img src="assets/logo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo">
         <div class="footer__brand-content">
           <p class="footer__slogan">Transformando vidas através do amor animal.</p>
           <ul class="footer__social-list">
@@ -141,7 +159,7 @@
 
       <!-- QrCode -->
       <div class="footer__section footer__section--extra">
-        <img src="assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode">
+        <img src="assets/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode">
       </div>
 
     </div>
