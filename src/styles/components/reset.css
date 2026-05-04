@@ -66,7 +66,7 @@ a {
 
 main {
   width: 100%;
-  padding: 4.8rem 0;
+  padding-top: 4.8rem;
 
 }
 
@@ -84,9 +84,4 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-
-.container:last-child {
-  width: 100%;
-  overflow: visible;
 }
