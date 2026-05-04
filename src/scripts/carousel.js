@@ -34,7 +34,7 @@ prevButton.addEventListener("click", () => {
 
 //temporizador
 function startTimer() {
-  autoPlayInterval = setInterval(nextSlide, 5000);
+  autoPlayInterval = setInterval(nextSlide, 3000);
 }
 
 //função para resetar o tempo

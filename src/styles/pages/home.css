@@ -390,9 +390,6 @@
   scale: 1.025;
 }
 
-/* -------------------------------------------- */
-
-/* Section - o que falam */
 
 .what-say {
   width: 100%;
@@ -520,10 +517,9 @@
 }
 
 .what-say__post-record ul {
-
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: .4rem
 }
 
