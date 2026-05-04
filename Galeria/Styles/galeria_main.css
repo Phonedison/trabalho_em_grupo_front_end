@@ -133,7 +133,6 @@
 /*Configuração da imagem no card*/
 .galeria__card-profile{
   width: 100%;
-  display: block;
   height: 25.4vh;
   object-fit: cover;
   border-radius: 2.4rem;
@@ -142,7 +141,6 @@
 /*Configuração da descrição do cachorrinho no card*/
 .galeria__card-description{
   padding: 1.2rem;
-  gap: 3rem;
   font-family:'Mochiy Pop One' ;
 }
 /*Configuração do nome do cachorrinho no card*/
@@ -171,10 +169,7 @@
   .galeria__card-more-information a{
     color: var(--white-color);
   }
- h2{
-  padding: 2rem;
-  }
-.galeria__destaque {
+ .galeria__destaque {
   color: var(--yellow-color);
 }
 
