@@ -1,41 +1,36 @@
+// espera carregar a página
 document.addEventListener("DOMContentLoaded", () => {
 
-  // pega o carrossel da página
+  // pega carrossel
   const carousel = document.querySelector(".pet-carousel");
 
-  // se não existir, para o script
   if (!carousel) return;
 
-  // pega todas as imagens do carrossel
+  // pega imagens
   const images = carousel.querySelectorAll("img");
 
-  // pega os botões de navegação
+  // botões
   const prev = carousel.querySelector(".prev");
   const next = carousel.querySelector(".next");
 
-  // controla qual imagem está ativa
   let index = 0;
 
-  // função que mostra a imagem atual
+  // troca imagem
   function showImage(i) {
-    images.forEach(img => img.classList.remove("active")); // remove de todas
-    images[i].classList.add("active"); // ativa a atual
+    images.forEach(img => img.classList.remove("active"));
+    images[i].classList.add("active");
   }
 
-  // botão para próxima imagem
-  if (next) {
-    next.addEventListener("click", () => {
-      index = (index + 1) % images.length; // avança
-      showImage(index);
-    });
-  }
+  // próximo
+  next.addEventListener("click", () => {
+    index = (index + 1) % images.length;
+    showImage(index);
+  });
 
-  // botão para imagem anterior
-  if (prev) {
-    prev.addEventListener("click", () => {
-      index = (index - 1 + images.length) % images.length; // volta
-      showImage(index);
-    });
-  }
+  // anterior
+  prev.addEventListener("click", () => {
+    index = (index - 1 + images.length) % images.length;
+    showImage(index);
+  });
 
 });
