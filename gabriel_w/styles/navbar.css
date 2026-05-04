@@ -1,31 +1,47 @@
+/* define barra superior */
 .navbar {
-  background-color: var(--yellow-color);
-  padding: 1.6rem 4rem;
+  background-color: #ffdf00; /* define cor amarela */
+  padding: 2rem 6rem;
 }
 
+/* organiza conteúdo */
 .navbar__container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
+/* define logo */
 .navbar__logotipo img {
   height: 50px;
 }
 
+/* organiza menu */
 .navbar__navegation {
   display: flex;
   gap: 3rem;
+  list-style: none;
+  align-items: center;
 }
 
+/* define links */
 .navbar__navegation a {
+  text-decoration: none;
   font-weight: 600;
-  color: var(--black-color);
+  color: #2f2f2f;
+  font-size: 1.6rem;
 }
 
+/* aplica hover nos links */
+.navbar__navegation a:hover {
+  color: #0aa37f; /* muda para verde */
+}
+
+/* define botão */
 .btn-form a {
-  background-color: var(--blue-color-500);
-  padding: 0.8rem 2rem;
+  background-color: #4da6ff;
+  padding: 1rem 2.5rem;
   border-radius: 999px;
   color: white;
+  font-weight: 600;
 }

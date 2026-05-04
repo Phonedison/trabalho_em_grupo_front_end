@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- define o titulo -->
+  <title>Vira-lar | Galeria de Pets</title>
+
+  <!-- ativa responsividade -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- importa css -->
+  <link rel="stylesheet" href="styles/variavel.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/galeria.css">
+</head>
+
+<body>
+
+<!-- cria navbar -->
+<header class="navbar">
+  <nav class="navbar__container">
+
+    <!-- mostra logo -->
+    <div class="navbar__logotipo">
+      <img src="assets/logo.png" height="40" alt="logo vira-lar">
+    </div>
+
+    <!-- mostra menu -->
+    <ul class="navbar__navegation">
+      <li><a href="index.html">home</a></li>
+      <li><a href="index.html">galeria</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">contato</a></li>
+
+      <!-- mostra botão -->
+      <li class="btn-form"><a href="#">adotar agora</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+<!-- cria conteúdo -->
+<main>
+
+  <!-- cria seção galeria -->
+  <section class="galeria">
+
+    <!-- mostra titulo -->
+    <h1>Galeria de <span>Pets</span></h1>
+
+    <!-- cria lista de cards -->
+    <div class="cards">
+
+      <!-- mostra card odin -->
+      <a href="pets/odin.html" class="card">
+        <img src="assets/cachorro/odin1.jpeg" alt="foto do cachorro odin">
+        <h2>Odin</h2>
+      </a>
+
+      <!-- mostra card beto -->
+      <a href="pets/beto.html" class="card">
+        <img src="assets/cachorro/beto1.jpeg" alt="foto do cachorro beto">
+        <h2>Beto</h2>
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+<!-- cria rodapé -->
+<footer class="footer">
+  <p>© 2026 - projeto vira-lar</p>
+</footer>
+
+</body>
+</html>

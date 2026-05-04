@@ -2,13 +2,14 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Beto | Galeria de Pets</title>
+  <title>beto</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- css -->
   <link rel="stylesheet" href="../styles/variavel.css">
   <link rel="stylesheet" href="../styles/base.css">
   <link rel="stylesheet" href="../styles/navbar.css">
-  <link rel="stylesheet" href="../styles/cachorro_detalhe.css">
+  <link rel="stylesheet" href="../styles/pet-modelo50.css">
 </head>
 
 <body>
@@ -16,54 +17,60 @@
 <header class="navbar">
   <nav class="navbar__container">
     <div class="navbar__logotipo">
-      <img src="../assets/logo/logotipo_vira-lar.png" alt="Logotipo Vira-lar">
+      <img src="../assets/logo.png" height="40">
     </div>
 
     <ul class="navbar__navegation">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="../index.html">Galeria de Pets</a></li>
-      <li class="btn-form"><a href="#">Adotar agora</a></li>
+      <li><a href="../index.html">home</a></li>
+      <li><a href="../index.html">galeria</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">contato</a></li>
+      <li class="btn-form"><a href="#">adotar agora</a></li>
     </ul>
   </nav>
 </header>
 
-<main>
-  <section class="container">
+<main class="pet-page">
 
-    <h1 class="titulo-pet">Galeria de <span>Pets</span></h1>
+  <section class="pet-layout container">
 
-    <div class="pet-detalhe">
+    <!-- carrossel -->
+    <div class="pet-carousel">
 
-      <img
-        src="../assets/cachorro/Beto.jpeg"
-        alt="Beto"
-        class="pet-detalhe__img"
-      >
+      <button class="prev">‹</button>
 
-      <div class="pet-detalhe__info">
-        <h2>Beto</h2>
+      <img src="../assets/cachorro/Beto/Beto.jpeg" class="active">
+      <img src="../assets/cachorro/Beto/Beto2.jpeg">
+      <img src="../assets/cachorro/Beto/Beto3.jpeg">
+      <img src="../assets/cachorro/Beto/Beto4.jpeg">
 
-        <p><strong>Raça:</strong> SRD</p>
-        <p><strong>Brincadeira favorita:</strong> Bolinhas</p>
+      <button class="next">›</button>
 
-        <p class="pet-detalhe__descricao">
-          Beto é um cachorro muito brincalhão, cheio de energia e adora correr
-          e brincar com bolinhas. É carinhoso e se dá bem com outros animais.
-        </p>
-
-        <a href="../index.html" class="pet-detalhe__btn">
-          Voltar para a galeria
-        </a>
+      <div class="pet-overlay">
+        <h2>beto</h2>
+        <span>sendo beto</span>
       </div>
 
     </div>
 
+    <div class="pet-info">
+      <h1>beto</h1>
+
+      <p>Sou o típico “cãozinho de bar”.</p>
+      <p>Extremamente simpático e carismático!</p>
+      <p>Gosto de correr, brincar de bolinha e aprender comandos.</p>
+      <p>Sou muito esperto e obediente.</p>
+    </div>
+
   </section>
+
 </main>
 
 <footer class="footer">
-  <p>© 2026 - Projeto Vira-lar</p>
+  <p>© 2026 - projeto vira-lar</p>
 </footer>
+
+<script src="../script.js"></script>
 
 </body>
 </html>

@@ -1,11 +1,15 @@
+/* define variáveis globais */
 :root {
-  --green-color-700: hsl(168, 96%, 14%);
-  --green-color-600: hsl(168, 96%, 24%);
-  --green-color-500: hsl(168, 96%, 34%);
-  --green-color-400: hsl(168, 96%, 44%);
-  --green-color-300: hsl(168, 96%, 54%);
 
-  --yellow-color: #FEDF14;
-  --black-color: #2F2F2F;
-  --white-color: #F5F7FA;
+  /* define cor verde principal */
+  --green-color-500: #0aa37f;
+
+  /* define cor amarela */
+  --yellow-color: #ffdf00;
+
+  /* define branco */
+  --white-color: #f5f7fa;
+
+  /* define cor de texto */
+  --black-color: #2f2f2f;
 }
