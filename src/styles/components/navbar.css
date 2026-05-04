@@ -1,0 +1,85 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: var(--yellow-color-500);
+  font-family: 'Mochiy Pop One';
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: 10;
+}
+
+.navbar__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: .8rem 5.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logotipo {
+  width: 100%;
+  height: 100%;
+  max-width: 10rem;
+  max-height: 10rem;
+  padding: .8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__logotipo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__navegation {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  padding: .8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__navegation-item a {
+  padding: .8rem;
+  text-decoration: none;
+  color: var(--black-color);
+  transition: color 0.3s ease;
+}
+
+.navbar__navegation-item.active a {
+  color: var(--green-color-500);
+}
+
+.navbar__navegation-item a:active {
+  color: var(--green-color-600);
+}
+
+.navbar__navegation-item a:hover {
+  color: var(--green-color-700);
+}
+
+.navbar__navegation-item.btn-form a {
+  padding: .8rem 1.6rem;
+  border-radius: 3.2rem;
+  background-color: var(--blue-color-500);
+  color: var(--white-color);
+  transition: background-color ease-in-out .2s;
+  box-shadow: var(--btn-shadow-form);
+}
+
+.navbar__navegation-item.btn-form a:hover {
+  background-color: var(--blue-color-600);
+  color: var(--white-color);
+  filter: scale(.5);
+}
+
+.btn-form {
+  filter: scale(1);
+}
+
+.btn-form:hover {
+  filter: scale(.5);
+}
