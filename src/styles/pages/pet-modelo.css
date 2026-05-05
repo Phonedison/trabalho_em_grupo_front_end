@@ -8,11 +8,6 @@
   align-items: center;
 }
 
-/* centraliza conteúdo */
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
 
 /* organiza imagem e texto */
 .pet-layout {
