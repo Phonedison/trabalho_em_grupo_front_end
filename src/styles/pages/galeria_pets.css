@@ -37,7 +37,13 @@
   height: 100%;
   max-width: 60rem;
   max-height: 80rem;
+  box-shadow: var(--card-shadow);
+
+  transition: scale ease-in-out .2s;
  
+}
+.galeria__card:hover {
+  scale: 1.05;
 }
 /*Configuração da imagem no card*/
 .galeria__card-profile{
@@ -69,6 +75,9 @@
   color: var(--white-color);
   font-size:2.4rem;
   border: none;
+   box-shadow: var(--btn-shadow);
+   transition: transform 0.2s ease-in-out, background-color 0.2s;
+   cursor: pointer;
   
   }
   .galeria__card-more-information:hover{
