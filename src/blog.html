@@ -1,189 +1,162 @@
 <!DOCTYPE html>
-<<<<<<<< HEAD:src/components/beto.html <html lang="pt-br">
+<html lang="pt-br">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>beto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<head>
+  <meta charset="UTF-8">
+  <title>beto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
-    <!-- Links dos css da página construido no repositorio styles -->
-    <link rel="stylesheet" href="../styles/main.css">
+  <!-- Links dos css da página construido no repositorio styles -->
+  <link rel="stylesheet" href="./styles/main.css">
 
-  </head>
+</head>
 
+<body>
+  <header class="navbar">
+    <nav class="navbar__container">
 
-  <body>
-    <!-- NAVBAR -->
-    ========
-    <html lang="pt-BR">
+      <!-- logotipo -->
+      <div id="home" class="navbar__logotipo">
+        <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" />
+      </div>
 
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Blog - Pets</title>
+      <!-- itens para navegação da página -->
+      <ul class="navbar__navegation">
+        <li class="navbar__navegation-item">
+          <a href="../index.html">Home</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="../sobre.html">Sobre</a>
+        </li>
+        <li class="navbar__navegation-item active">
+          <a href="../galeria_pets.html">Galeria de Pets</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="../blogs.html">Blog</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="../contato.html">Contato</a>
+        </li>
+        <li class="navbar__navegation-item btn-form">
+          <a href="../formulario.html">Adotar agora</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- postangens -->
+  <main class="posts">
 
-      <!-- Links dos css da página construido no repositorio styles -->
-      <link rel="stylesheet" href="./styles/main.css">
+    <!-- titutlo -->
+    <section class="container">
+      <div class="hero">
+        <h1>Novo lar, <span>nova vida.</span><br />Saiba como cuidar.</h1>
+      </div>
 
-    </head>
+      <div class="post-card">
+        <img class="post-thumb" src="1.jpg" alt="Gatos filhotes" />
+        <div class="post-info">
+          <h2>Como cuidar de gatos filhotes?</h2>
+        </div>
+      </div>
 
-    <body>
-      <header class="navbar">
-        <nav class="navbar__container">
+      <div class="post-card">
+        <img class="post-thumb" src="2.jpg" alt="Banho e antipulgas" />
+        <div class="post-info">
+          <h2>O banho pode diminuir a eficácia do antipulgas? Descubra a verdade</h2>
+        </div>
+      </div>
 
-          <!-- logotipo -->
-          <div id="home" class="navbar__logotipo">
-            <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" />
-          </div>
+      <div class="post-card">
+        <img class="post-thumb" src="3.jpg" alt="Calendário de vacinação" />
+        <div class="post-info">
+          <h2>Calendário de Vacinação para Cachorros e outros Pets</h2>
+        </div>
+      </div>
 
-          <!-- itens para navegação da página -->
-          <ul class="navbar__navegation">
-            <li class="navbar__navegation-item">
-              <a href="../index.html">Home</a>
+      <div class="post-card">
+        <img class="post-thumb" src="4.jpg" alt="Ração vencida" />
+        <div class="post-info">
+          <h2>Risco de alimentar seu Pet com ração Vencida</h2>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+
+      <!-- logotipo + slogan + sociais -->
+      <div class="footer__section footer__section--brand">
+        <img src="../assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
+
+        <div class="footer__brand-content">
+          <p class="footer__slogan">Transformando vidas através do amor animal.</p>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" target="_blank">
+                <!-- importação dos Icones no html -->
+                <i class="bi bi-whatsapp footer__social-icon"></i>
+              </a>
             </li>
-            <li class="navbar__navegation-item">
-              <a href="../sobre.html">Sobre</a>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" target="_blank">
+                <i class="bi bi-instagram footer__social-icon"></i>
+              </a>
             </li>
-            <li class="navbar__navegation-item active">
-              <a href="../galeria_pets.html">Galeria de Pets</a>
-            </li>
-            <li class="navbar__navegation-item">
-              <a href="../blogs.html">Blog</a>
-            </li>
-            <li class="navbar__navegation-item">
-              <a href="../contato.html">Contato</a>
-            </li>
-            <li class="navbar__navegation-item btn-form">
-              <a href="../formulario.html">Adotar agora</a>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" target="_blank">
+                <i class="bi bi-linkedin footer__social-icon"></i>
+              </a>
             </li>
           </ul>
-        </nav>
-      </header>
-
-      <!-- postangens -->
-      <main class="posts">
-
-        <!-- titutlo -->
-        <section class="container">
-          <div class="hero">
-            <h1>Novo lar, <span>nova vida.</span><br />Saiba como cuidar.</h1>
-          </div>
-
-          <div class="post-card">
-            <img class="post-thumb" src="1.jpg" alt="Gatos filhotes" />
-            <div class="post-info">
-              <h2>Como cuidar de gatos filhotes?</h2>
-            </div>
-          </div>
-
-          <div class="post-card">
-            <img class="post-thumb" src="2.jpg" alt="Banho e antipulgas" />
-            <div class="post-info">
-              <h2>O banho pode diminuir a eficácia do antipulgas? Descubra a verdade</h2>
-            </div>
-          </div>
-
-          <div class="post-card">
-            <img class="post-thumb" src="3.jpg" alt="Calendário de vacinação" />
-            <div class="post-info">
-              <h2>Calendário de Vacinação para Cachorros e outros Pets</h2>
-            </div>
-          </div>
-
-          <div class="post-card">
-            <img class="post-thumb" src="4.jpg" alt="Ração vencida" />
-            <div class="post-info">
-              <h2>Risco de alimentar seu Pet com ração Vencida</h2>
-            </div>
-          </div>
-        </section>
-
-      </main>
-
-      <footer class="footer">
-        <div class="footer__container">
-
-          <!-- logotipo + slogan + sociais -->
-          <div class="footer__section footer__section--brand">
-            <img src="../assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
-
-            <div class="footer__brand-content">
-              <p class="footer__slogan">Transformando vidas através do amor animal.</p>
-              <ul class="footer__social-list">
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank">
-                    <!-- importação dos Icones no html -->
-                    <i class="bi bi-whatsapp footer__social-icon"></i>
-                  </a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank">
-                    <i class="bi bi-instagram footer__social-icon"></i>
-                  </a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank">
-                    <i class="bi bi-linkedin footer__social-icon"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Contato -->
-          <div class="footer__section">
-            <h4 class="footer__title">Contato & Localização</h4>
-            <address>
-              <ul class="footer__list">
-                <li class="footer__item">Rua xxxxx - Petrópolis/RJ</li>
-                <li class="footer__item">contato@viralar.com.br</li>
-                <li class="footer__item">Segunda a sexta, 10h às 16h</li>
-              </ul>
-            </address>
-          </div>
-
-          <!--  links de Ajuda -->
-          <div class="footer__section">
-            <h4 class="footer__title">Como Ajudar</h4>
-            <ul class="footer__list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">Seja um Voluntário</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Doe qualquer valor (PIX)</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Itens de necessidade</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- QrCode -->
-          <div class="footer__section footer__section--extra">
-            <img src="../assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
-
-          </div>
-
         </div>
+      </div>
 
-        <!-- Copyright -->
-        <div class="footer__copyright">
-          <p class="footer__copy-text">Desenvolvido por Grupo 03 - Serratec 2026</p>
-          <p class="footer__copy-text">Copyright © 2026</p>
-        </div>
-      </footer>
-      <<<<<<<< HEAD:src/components/beto.html <script src="../scripts/carousel-galary.js">
-        </script>
-    </body>
+      <!-- Contato -->
+      <div class="footer__section">
+        <h4 class="footer__title">Contato & Localização</h4>
+        <address>
+          <ul class="footer__list">
+            <li class="footer__item">Rua xxxxx - Petrópolis/RJ</li>
+            <li class="footer__item">contato@viralar.com.br</li>
+            <li class="footer__item">Segunda a sexta, 10h às 16h</li>
+          </ul>
+        </address>
+      </div>
 
-    </html>
-    ========
+      <!--  links de Ajuda -->
+      <div class="footer__section">
+        <h4 class="footer__title">Como Ajudar</h4>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Seja um Voluntário</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Doe qualquer valor (PIX)</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Itens de necessidade</a>
+          </li>
+        </ul>
+      </div>
 
+      <!-- QrCode -->
+      <div class="footer__section footer__section--extra">
+        <img src="../assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
 
-  </body>
+      </div>
 
-  </html>
-  >>>>>>>> integration/develop_kenny:src/blog.html
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer__copyright">
+      <p class="footer__copy-text">Desenvolvido por Grupo 03 - Serratec 2026</p>
+      <p class="footer__copy-text">Copyright © 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>
