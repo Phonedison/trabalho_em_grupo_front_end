@@ -1,0 +1,37 @@
+/* define variáveis globais */
+:root {
+
+  /* define cor verde principal */
+  --green-color-500: #0aa37f;
+
+  /* define cor amarela */
+  --yellow-color: #ffdf00;
+
+  /* define branco */
+  --white-color: #f5f7fa;
+
+  /* define cor de texto */
+  --black-color: #2f2f2f;
+}
+
+:root {
+
+  --green-color-500: #0aa37f;
+  --green-color-600: #089e79;
+  --green-color-700: #067a5e;
+
+  --yellow-color: #ffdf00;
+  --yellow-color-500: #ffdf00;
+
+  --white-color: #f5f7fa;
+  --black-color: #2f2f2f;
+
+  --blue-color-500: #4da6ff;
+  --blue-color-600: #2f8ae6;
+
+  --btn-shadow-form: 0 4px 10px rgba(0,0,0,0.2);
+
+  --yellow-color: var(--yellow-color-500);
+--green-color: var(--green-color-500);
+--blue-color: var(--blue-color-500);
+}

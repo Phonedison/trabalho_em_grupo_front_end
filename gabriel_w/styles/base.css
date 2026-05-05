@@ -1,0 +1,57 @@
+/* Importa fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins&display=swap');
+
+/* Reset básico (remove margens padrão dos navegadores) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Define tamanho base da fonte (1rem = 10px) */
+html {
+  font-size: 62.5%;
+}
+
+/* Estilo geral do body */
+body {
+  font-family: 'Poppins', sans-serif; /* fonte padrão */
+  font-size: 1.6rem; /* tamanho base do texto */
+  background-color: var(--green-color-500); /* cor de fundo */
+  min-height: 100vh; /* ocupa altura total da tela */
+}
+
+/* Títulos usam outra fonte */
+h1, h2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+/* Footer (rodapé) */
+.footer {
+  background-color: var(--yellow-color);
+  padding: 3rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  color: var(--black-color);
+}
+
+/* Animação ao carregar página */
+body {
+  animation: fadeIn 0.6s ease;
+}
+
+/* Define animação */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* começa invisível */
+    transform: translateY(10px); /* levemente abaixo */
+  }
+  to {
+    opacity: 1; /* aparece */
+    transform: translateY(0); /* posição normal */
+  }
+}

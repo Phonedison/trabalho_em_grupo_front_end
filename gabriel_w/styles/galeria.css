@@ -1,0 +1,66 @@
+/* Seção principal */
+.galeria {
+  padding: 8rem 2rem;
+  text-align: center;
+}
+
+/* Título */
+.galeria h1 {
+  font-size: 5.6rem;
+  color: white;
+}
+
+/* Destaque */
+.galeria span {
+  color: var(--yellow-color);
+}
+
+/* Grid de cards */
+.cards {
+  display: grid;
+
+  /* cria colunas automáticas responsivas */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+/* Card individual */
+.card {
+  text-decoration: none;
+  color: inherit;
+
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+/* Hover do card */
+.card:hover {
+  transform: translateY(-8px); 
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* Imagem */
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+
+  transition: transform 0.3s ease;
+}
+
+/* Zoom na imagem */
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Nome */
+.card h2 {
+  margin: 1.6rem 0;
+}

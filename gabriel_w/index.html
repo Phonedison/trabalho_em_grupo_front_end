@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- define titulo -->
+  <title>Vira-lar | Galeria de Pets</title>
+
+  <!-- ativa responsividade -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- importa css -->
+  <link rel="stylesheet" href="styles/variavel.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/galeria.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+
+<!-- cria navbar -->
+<header class="navbar">
+  <nav class="navbar__container">
+
+    <!-- mostra logo -->
+    <div class="navbar__logotipo">
+      <img src="assets/logo.png">
+    </div>
+
+    <!-- mostra menu -->
+    <ul class="navbar__navegation">
+      <li class="navbar__navegation-item"><a href="#">home</a></li>
+      <li class="navbar__navegation-item active"><a href="#">galeria</a></li>
+      <li class="navbar__navegation-item"><a href="#">blog</a></li>
+      <li class="navbar__navegation-item"><a href="#">contato</a></li>
+      <li class="navbar__navegation-item btn-form"><a href="#">adotar</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+<!-- cria conteúdo -->
+<main>
+
+  <!-- cria galeria -->
+  <section class="galeria">
+
+    <!-- mostra titulo -->
+    <h1>Galeria de <span>Pets</span></h1>
+
+    <!-- cria cards -->
+    <div class="cards">
+
+      <a href="pets/odin.html" class="card">
+        <img src="assets/cachorro/odin1.jpeg">
+        <h2>Odin</h2>
+      </a>
+
+      <a href="pets/beto.html" class="card">
+        <img src="assets/cachorro/beto1.jpeg">
+        <h2>Beto</h2>
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+<!-- cria footer -->
+<footer class="footer">
+
+  <div class="footer__container">
+
+    <!-- mostra marca -->
+    <div class="footer__section footer__section--brand">
+      <img src="assets/logo.png" class="footer__logo">
+      <p class="footer__slogan">adote um amigo ❤️</p>
+    </div>
+
+    <!-- mostra links -->
+    <div class="footer__section">
+      <h3 class="footer__title">menu</h3>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#">home</a></li>
+        <li class="footer__item"><a href="#">galeria</a></li>
+        <li class="footer__item"><a href="#">contato</a></li>
+      </ul>
+    </div>
+
+    <!-- mostra redes -->
+    <div class="footer__section">
+      <h3 class="footer__title">redes</h3>
+      <ul class="footer__social-list">
+        <li><a href="#" class="footer__social-link">🐶</a></li>
+        <li><a href="#" class="footer__social-link">📸</a></li>
+        <li><a href="#" class="footer__social-link">💬</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- mostra copyright -->
+  <div class="footer__copyright">
+    <span>© 2026 - vira-lar</span>
+    <span>feito com ❤️</span>
+  </div>
+
+</footer>
+
+</body>
+</html>
