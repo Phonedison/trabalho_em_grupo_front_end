@@ -1,0 +1,48 @@
+/* tuktulo */
+.hero {
+  padding: 60px 60px 40px;
+}
+
+.hero h1 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  color: white;
+}
+
+.hero h1 span {
+  color: #FEDF14;
+}
+
+/* postagens */
+.posts {
+  padding: 20px 60px 60px;
+}
+
+.post-card {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px solid white;
+}
+
+.post-thumb {
+  width: 340px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.post-info h2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.post-info p {
+  font-size: 15px;
+  color: white;
+  line-height: 1.6;
+}
+
