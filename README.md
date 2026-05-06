@@ -1,4 +1,4 @@
-# 🐶 Vira-Lar — Plataforma de Adoção de Pets
+# [🐶 Vira-Lar — Plataforma de Adoção de Pets](https://vira-lar.netlify.app/)
 
  <div> <img align="right" src="src/assets/img/logotipo/logotipo_vira-lar.png" width="120px"/> <p align="left"> O <strong>Vira-Lar</strong> é uma plataforma web desenvolvida para conectar animais que precisam de um lar a pessoas dispostas a adotar. <br/><br/> Este projeto foi criado como parte de um processo de aprendizado em <strong>desenvolvimento front-end</strong>, com foco em: <br/> ✔️ Trabalho em equipe ✔️ Versionamento de código com Git ✔️ Boas práticas de organização e arquitetura de projetos </p> </div>
 
