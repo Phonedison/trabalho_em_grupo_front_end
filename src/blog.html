@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <title>beto</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Pets</title>
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   <!-- Links dos css da página construido no repositorio styles -->
@@ -24,61 +25,72 @@
       <!-- itens para navegação da página -->
       <ul class="navbar__navegation">
         <li class="navbar__navegation-item">
-          <a href="../index.html">Home</a>
+          <a href="#">Home</a>
         </li>
         <li class="navbar__navegation-item">
-          <a href="../sobre.html">Sobre</a>
+          <a href="sobre.html">Sobre</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="galeria_pets.html">Galeria de Pets</a>
         </li>
         <li class="navbar__navegation-item active">
-          <a href="../galeria_pets.html">Galeria de Pets</a>
+          <a href="#">Blog</a>
         </li>
         <li class="navbar__navegation-item">
-          <a href="../blogs.html">Blog</a>
-        </li>
-        <li class="navbar__navegation-item">
-          <a href="../contato.html">Contato</a>
+          <a href="contato.html">Contato</a>
         </li>
         <li class="navbar__navegation-item btn-form">
-          <a href="../formulario.html">Adotar agora</a>
+          <a href="contato.html">Adotar agora</a>
         </li>
       </ul>
     </nav>
   </header>
-
   <!-- postangens -->
-  <main class="posts">
+  <main>
 
-    <!-- titutlo -->
     <section class="container">
-      <div class="hero">
-        <h1>Novo lar, <span>nova vida.</span><br />Saiba como cuidar.</h1>
-      </div>
-
-      <div class="post-card">
-        <img class="post-thumb" src="../src/assets/img/blog/1.jpg" alt="Gatos filhotes" />
-        <div class="post-info">
-          <h2>Como cuidar de gatos filhotes?</h2>
+      <!-- titutlo -->
+      <div class="posts">
+        <div class="blog-title">
+          <h1>Novo lar, <span>nova vida.</span><br />Saiba como cuidar.</h1>
         </div>
-      </div>
+        <div class="post-list">
+          <div class="post-card">
+            <div class="post-thumb">
+              <img src="../src/assets/img/blog/1.jpg" alt="Gatos filhotes" />
+            </div>
+            <div class="post-info">
+              <h2>Como cuidar de gatos filhotes?</h2>
+            </div>
+          </div>
 
-      <div class="post-card">
-        <img class="post-thumb" src="../src/assets/img/blog/2.jpg" alt="Banho e antipulgas" />
-        <div class="post-info">
-          <h2>O banho pode diminuir a eficácia do antipulgas? Descubra a verdade</h2>
-        </div>
-      </div>
+          <div class="post-card">
+            <div class="post-thumb">
+              <img src="../src/assets/img/blog/2.jpg" alt="Banho e antipulgas" />
+            </div>
+            <div class="post-info">
+              <h2>O banho pode diminuir a eficácia do antipulgas? Descubra a verdade</h2>
+            </div>
+          </div>
 
-      <div class="post-card">
-        <img class="post-thumb" src="../src/assets/img/blog/3.jpg" alt="Calendário de vacinação" />
-        <div class="post-info">
-          <h2>Calendário de Vacinação para Cachorros e outros Pets</h2>
-        </div>
-      </div>
+          <div class="post-card">
+            <div class="post-thumb">
+              <img src="../src/assets/img/blog/3.jpg" alt="Calendário de vacinação" />
+            </div>
+            <div class="post-info">
+              <h2>Calendário de Vacinação para Cachorros e outros Pets</h2>
+            </div>
+          </div>
 
-      <div class="post-card">
-        <img class="post-thumb" src="../src/assets/img/blog/4.jpg" alt="Ração vencida" />
-        <div class="post-info">
-          <h2>Risco de alimentar seu Pet com ração Vencida</h2>
+          <div class="post-card">
+            <div class="post-thumb">
+              <img src="../src/assets/img/blog/4.jpg" alt="Ração vencida" />
+            </div>
+            <div class="post-info">
+              <h2>Risco de alimentar seu Pet com ração Vencida</h2>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -90,8 +102,7 @@
 
       <!-- logotipo + slogan + sociais -->
       <div class="footer__section footer__section--brand">
-        <img src="../assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
-
+        <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
         <div class="footer__brand-content">
           <p class="footer__slogan">Transformando vidas através do amor animal.</p>
           <ul class="footer__social-list">
@@ -145,8 +156,7 @@
 
       <!-- QrCode -->
       <div class="footer__section footer__section--extra">
-        <img src="../assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
-
+        <img src="assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
       </div>
 
     </div>
@@ -157,6 +167,8 @@
       <p class="footer__copy-text">Copyright © 2026</p>
     </div>
   </footer>
+
+
 </body>
 
 </html>
