@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Galeria de Pets</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" /> -->
+    <!-- <link rel="stylesheet" href="Styles/galeria_main.css"> -->
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/running-hound-dog-874898f0-32.css">
-    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Links dos css da página construido no repositorio styles -->
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 
 <body>
-
-    <!-- menu de navegação - navbar da tela -->
     <header class="navbar">
         <nav class="navbar__container">
+
             <!-- logotipo -->
-            <div id="home" class="navbar__logotipo">
-                <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" />
+            <div class="navbar__logotipo">
+                <img src="../assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar">
             </div>
 
             <!-- itens para navegação da página -->
             <ul class="navbar__navegation">
                 <li class="navbar__navegation-item">
-                    <a href="./index.html">Home</a>
+                    <a href="../../index.html">Home</a>
                 </li>
                 <li class="navbar__navegation-item">
                     <a href="sobre.html">Sobre</a>
                 </li>
-                <li class="navbar__navegation-item">
+                <li class="navbar__navegation-item active">
                     <a href="galeria_pets.html">Galeria de Pets</a>
                 </li>
                 <li class="navbar__navegation-item">
                     <a href="blog.html">Blog</a>
                 </li>
-                <li class="navbar__navegation-item active">
+                <li class="navbar__navegation-item">
                     <a href="contato.html">Contato</a>
                 </li>
                 <li class="navbar__navegation-item btn-form">
@@ -43,52 +48,83 @@
             </ul>
         </nav>
     </header>
-
-
-    <!--FORMULARIO-->
     <main>
-        <section class="conteiner form">
+        <section class="container">
+            <div class="galeria">
 
-            <div class="form-wrapper">
-                <form action="default">
-                    <div class="field">
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" autocomplete="name">
+
+                <div class="galeria__titulo">
+                    <h1>GALERIA DE <span class="galeria__destaque">PETS</span></h1>
+                </div>
+                <div class="galeria__post">
+
+                    <div class="galeria__card">
+                        <img class="galeria__card-profile" src="../assets/img/bichos/dogs/beto/img-1.jpeg"
+                            alt="Beto pet">
+                        <div class="galeria__card-description">
+                            <h2>Beto</h2>
+                            <p>Raça: SRD</p>
+                            <p>Brincadeira favorita: Bolinhas</p>
+                            <button class="galeria__card-more-information">
+                                <a href="../pages/pets/beto.html">Saiba Mais</a>
+                            </button>
+                        </div>
                     </div>
-                    <div class="field">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" autocomplete="email">
+                    <div class="galeria__card">
+                        <img class="galeria__card-profile" src="../assets/img/bichos/dogs/barao/img-1.jpeg"
+                            alt="Barao pet">
+                        <div class="galeria__card-description">
+                            <h2>Barão</h2>
+                            <p>Raça: SRD</p>
+                            <p>Brincadeira favorita: Pique-Pega</p>
+                            <button class="galeria__card-more-information">
+                                <a href="../pages/pets/barao.html">Saiba Mais</a>
+                            </button>
+                        </div>
                     </div>
-                    <div class="field">
-                        <label for="assunto">Assunto:</label>
-                        <input type="text" id="assunto" name="assunto">
+                    <div class="galeria__card">
+                        <img class="galeria__card-profile" src="../assets/img/bichos/dogs/odin/img-1.jpeg"
+                            alt="Odin pet">
+                        <div class="galeria__card-description">
+                            <h2>Odin</h2>
+                            <p>Raça: SRD</p>
+                            <p>Brincadeira favorita: Bolinhas</p>
+                            <button class="galeria__card-more-information">
+                                <a href="../pages/pets/odin.html">Saiba Mais</a>
+                            </button>
+                        </div>
                     </div>
-                    <div class="field-textarea">
-                        <label for="mensagem">Digite a sua mensagem:</label>
-                        <textarea id="mensagem" name="mensagem"></textarea>
+                    <div class="galeria__card">
+                        <img class="galeria__card-profile" src="../assets/img/bichos/dogs/wagner/img-1.jpeg"
+                            alt="Wagner pet">
+                        <div class="galeria__card-description">
+                            <h2>Wagner</h2>
+                            <p>Raça: SRD</p>
+                            <p>Brincadeira favorita: Pique-Pega</p>
+                            <button class="galeria__card-more-information">
+                                <a href="../pages/pets/wagner.html">Saiba Mais</a>
+                            </button>
+                        </div>
                     </div>
-                    <div class="btn-wrapper">
-                        <button class="btn-enviar" type="button">enviar</button>
-                    </div>
-                </form>
+
+                </div>
             </div>
 
-            <div class="form__animal form__animal--cat" role="img" aria-label="Gato"></div>
-            <div class="form__animal form__animal--dog" role="img" aria-label="Cachorro"></div>
         </section>
-    </main>
 
+    </main>
     <footer class="footer">
         <div class="footer__container">
 
             <!-- logotipo + slogan + sociais -->
             <div class="footer__section footer__section--brand">
-                <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
+                <img src="../assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
                 <div class="footer__brand-content">
                     <p class="footer__slogan">Transformando vidas através do amor animal.</p>
                     <ul class="footer__social-list">
                         <li class="footer__social-item">
                             <a href="#" class="footer__social-link" target="_blank">
+                                <!-- importação dos Icones no html -->
                                 <i class="bi bi-whatsapp footer__social-icon"></i>
                             </a>
                         </li>
@@ -136,7 +172,7 @@
 
             <!-- QrCode -->
             <div class="footer__section footer__section--extra">
-                <img src="assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
+                <img src="../assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
             </div>
 
         </div>
@@ -147,7 +183,6 @@
             <p class="footer__copy-text">Copyright © 2026</p>
         </div>
     </footer>
-
 </body>
 
 </html>

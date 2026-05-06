@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog - Pets</title>
-
+  <meta charset="UTF-8">
+  <title>beto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/running-hound-dog-874898f0-32.css">
 
   <!-- Links dos css da página construido no repositorio styles -->
-  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="../../styles/main.css">
 
 </head>
 
@@ -20,90 +19,80 @@
 
       <!-- logotipo -->
       <div id="home" class="navbar__logotipo">
-        <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" />
+        <img src="../../assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" />
       </div>
 
       <!-- itens para navegação da página -->
       <ul class="navbar__navegation">
         <li class="navbar__navegation-item">
-          <a href="index.html">Home</a>
+          <a href="../../../index.html">Home</a>
         </li>
         <li class="navbar__navegation-item">
-          <a href="sobre.html">Sobre</a>
-        </li>
-        <li class="navbar__navegation-item">
-          <a href="galeria_pets.html">Galeria de Pets</a>
+          <a href="../sobre.html">Sobre</a>
         </li>
         <li class="navbar__navegation-item active">
-          <a href="blog.html">Blog</a>
+          <a href="../galeria_pets.html">Galeria de Pets</a>
         </li>
         <li class="navbar__navegation-item">
-          <a href="contato.html">Contato</a>
+          <a href="../blog.html">Blog</a>
+        </li>
+        <li class="navbar__navegation-item">
+          <a href="../contato.html">Contato</a>
         </li>
         <li class="navbar__navegation-item btn-form">
-          <a href="contato.html">Adotar agora</a>
+          <a href="../formulario.html">Adotar agora</a>
         </li>
       </ul>
     </nav>
   </header>
-  <!-- postangens -->
-  <main>
 
-    <section class="container">
-      <!-- titutlo -->
-      <div class="posts">
-        <div class="blog-title">
-          <h1>Novo lar, <span>nova vida.</span><br />Saiba como cuidar.</h1>
+  <!-- CONTEÚDO -->
+  <main class="pet-page">
+
+    <section class="pet-layout container">
+
+      <!-- CARROSSEL -->
+      <div class="pet-carousel">
+
+        <button class="prev">‹</button>
+
+        <img src="../../assets/img/bichos/dogs/beto/img-1.jpeg" class="active">
+        <img src="../../assets/img/bichos/dogs/beto/img-2.jpeg">
+        <img src="../../assets/img/bichos/dogs/beto/img-3.jpeg">
+        <img src="../../assets/img/bichos/dogs/beto/img-4.jpeg">
+
+        <button class="next">›</button>
+
+        <div class="pet-overlay">
+          <h2>beto</h2>
+          <span>sendo beto</span>
         </div>
-        <div class="post-list">
-          <div class="post-card">
-            <div class="post-thumb">
-              <img src="../src/assets/img/blog/1.jpg" alt="Gatos filhotes" />
-            </div>
-            <div class="post-info">
-              <h2>Como cuidar de gatos filhotes?</h2>
-            </div>
-          </div>
 
-          <div class="post-card">
-            <div class="post-thumb">
-              <img src="../src/assets/img/blog/2.jpg" alt="Banho e antipulgas" />
-            </div>
-            <div class="post-info">
-              <h2>O banho pode diminuir a eficácia do antipulgas? Descubra a verdade</h2>
-            </div>
-          </div>
-
-          <div class="post-card">
-            <div class="post-thumb">
-              <img src="../src/assets/img/blog/3.jpg" alt="Calendário de vacinação" />
-            </div>
-            <div class="post-info">
-              <h2>Calendário de Vacinação para Cachorros e outros Pets</h2>
-            </div>
-          </div>
-
-          <div class="post-card">
-            <div class="post-thumb">
-              <img src="../src/assets/img/blog/4.jpg" alt="Ração vencida" />
-            </div>
-            <div class="post-info">
-              <h2>Risco de alimentar seu Pet com ração Vencida</h2>
-            </div>
-          </div>
-
-        </div>
       </div>
+
+      <!-- TEXTO -->
+      <div class="pet-info">
+        <h1>beto</h1>
+
+        <p>Sou o típico “cãozinho de bar”.</p>
+        <p>Extremamente simpático e carismático!</p>
+        <p>Gosto de correr, brincar de bolinha e aprender comandos.</p>
+        <p>Sou muito esperto e obediente.</p>
+      </div>
+
     </section>
 
   </main>
+
+  <!-- FOOTER -->
+
 
   <footer class="footer">
     <div class="footer__container">
 
       <!-- logotipo + slogan + sociais -->
       <div class="footer__section footer__section--brand">
-        <img src="assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
+        <img src="../../assets/img/logotipo/logotipo_vira-lar.png" alt="Logotipo Vira-lar" class="footer__logo" />
         <div class="footer__brand-content">
           <p class="footer__slogan">Transformando vidas através do amor animal.</p>
           <ul class="footer__social-list">
@@ -157,7 +146,7 @@
 
       <!-- QrCode -->
       <div class="footer__section footer__section--extra">
-        <img src="assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
+        <img src="../../assets/img/qrcode/qrcode.png" alt="qrcode do githut" class="footer__img-qrcode" />
       </div>
 
     </div>
@@ -168,8 +157,8 @@
       <p class="footer__copy-text">Copyright © 2026</p>
     </div>
   </footer>
-
-
+  <script src="../../scripts/carousel-galary.js">
+  </script>
 </body>
 
 </html>
