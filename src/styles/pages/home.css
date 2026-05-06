@@ -26,7 +26,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: var();
+  color: var(--white-color);
   border: none;
   padding: 15px;
   cursor: pointer;
@@ -201,9 +201,10 @@
 .newcomer__card-btn {
   padding: .8rem;
   width: 100%;
+  display: flex;
 }
 
-.newcomer__card-btn button {
+.newcomer__card-btn a {
   padding: .8rem;
   border-radius: 1.6rem;
   width: 100%;
@@ -222,12 +223,12 @@
 
 }
 
-.newcomer__card-btn button:hover {
+.newcomer__card-btn a:hover {
   background-color: var(--green-color-600);
   transform: scale(1.02);
 }
 
-.newcomer__card-btn button:active {
+.newcomer__card-btn a:active {
   transform: scale(0.98);
 }
 

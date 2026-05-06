@@ -13,10 +13,10 @@ s*/
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 
 * {
-  cursor: url('https://cdn.cursors-4u.net/css-previews/happy-cute-box-dog-20d12bdf-css.webp') 0 0, auto !important;
   margin: 0;
   padding: 0;
 }
@@ -68,7 +68,7 @@ a {
 main {
   width: 100%;
   padding-top: 4.8rem;
-
+  overflow: hidden;
 }
 
 section {
